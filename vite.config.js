@@ -4,3 +4,5 @@ export default defineConfig({
   base: '/analizador_lexico1/',
 })
 
+
+
