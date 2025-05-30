@@ -85,10 +85,10 @@
 
 
 
-
       // Identificadores
-      { re: /^_[A-Za-z]\w*/, sig: "Identificador",    cat: "Letra/nombre" },
-      { re: /^[A-Za-z]\w*/,  sig: "Identificador",    cat: "Letra/nombre" },
+    { re: /^_[A-Za-záéíóúÁÉÍÓÚñÑ][A-Za-záéíóúÁÉÍÓÚñÑ0-9_]*/, sig: "Identificador", cat: "Letra/nombre" },
+    { re: /^[A-Za-záéíóúÁÉÍÓÚñÑ][A-Za-záéíóúÁÉÍÓÚñÑ0-9_]*/,  sig: "Identificador", cat: "Letra/nombre" },
+
 
       // Espacios y saltos de línea (se ignoran)
       { re: /^\s+/, ignore: true },
