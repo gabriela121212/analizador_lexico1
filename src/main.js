@@ -1,7 +1,7 @@
     const dropArea = document.getElementById('dropArea');
     const textarea = document.getElementById('inputCode');
 
-    //document.querySelector("button").addEventListener("click", analizar);
+    document.querySelector("button").addEventListener("click", analizar);
 
 
     dropArea.addEventListener('dragover', e => {
